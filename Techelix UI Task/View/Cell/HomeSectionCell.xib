@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.ttf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeSectionCell" rowHeight="185" id="KGk-i7-Jjw" customClass="HomeSectionCell" customModule="Techelix_UI_Task" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="700" height="185"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="700" height="185"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tLq-Ar-ouA">
+                        <rect key="frame" x="10" y="10" width="680" height="165"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aJ6-TT-YkJ">
+                                <rect key="frame" x="0.0" y="0.0" width="680" height="50"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gk4-69-lZW">
+                                        <rect key="frame" x="10" y="14.666666666666666" width="660" height="20.666666666666671"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Traditional Karate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PR9-oe-Wu5">
+                                                <rect key="frame" x="0.0" y="0.0" width="330" height="20.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5:30 - 5:30" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t92-wO-OHO">
+                                                <rect key="frame" x="330" y="0.0" width="330" height="20.666666666666668"/>
+                                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.87058823529411766" green="0.34509803921568627" blue="0.27450980392156865" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="gk4-69-lZW" secondAttribute="trailing" constant="10" id="MRL-tc-aXv"/>
+                                    <constraint firstItem="gk4-69-lZW" firstAttribute="centerY" secondItem="aJ6-TT-YkJ" secondAttribute="centerY" id="ri5-NY-svf"/>
+                                    <constraint firstAttribute="height" constant="50" id="vKX-XF-v0e"/>
+                                    <constraint firstItem="gk4-69-lZW" firstAttribute="leading" secondItem="aJ6-TT-YkJ" secondAttribute="leading" constant="10" id="zIV-sZ-v4v"/>
+                                </constraints>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="C7R-IG-TJj">
+                                <rect key="frame" x="0.0" y="50" width="680" height="110"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" priority="999" constant="125" id="fRU-dv-96S"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="M9n-3y-lBc">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="0.76795807895281454" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aJ6-TT-YkJ" firstAttribute="top" secondItem="tLq-Ar-ouA" secondAttribute="top" id="0PO-mV-Zdh"/>
+                            <constraint firstItem="aJ6-TT-YkJ" firstAttribute="leading" secondItem="tLq-Ar-ouA" secondAttribute="leading" id="Sw1-Vo-8Eu"/>
+                            <constraint firstItem="C7R-IG-TJj" firstAttribute="top" secondItem="aJ6-TT-YkJ" secondAttribute="bottom" id="UC7-6b-WQa"/>
+                            <constraint firstItem="C7R-IG-TJj" firstAttribute="leading" secondItem="tLq-Ar-ouA" secondAttribute="leading" id="Y4h-Yd-cLe"/>
+                            <constraint firstAttribute="trailing" secondItem="C7R-IG-TJj" secondAttribute="trailing" id="d5Z-Xs-IyA"/>
+                            <constraint firstAttribute="bottom" secondItem="C7R-IG-TJj" secondAttribute="bottom" constant="5" id="gZu-99-VhH"/>
+                            <constraint firstAttribute="trailing" secondItem="aJ6-TT-YkJ" secondAttribute="trailing" id="oln-eD-jpg"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="tLq-Ar-ouA" secondAttribute="trailing" constant="10" id="DhT-Me-2HS"/>
+                    <constraint firstItem="tLq-Ar-ouA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Ez7-Q0-u9s"/>
+                    <constraint firstAttribute="bottom" secondItem="tLq-Ar-ouA" secondAttribute="bottom" constant="10" id="V0K-Iy-HMw"/>
+                    <constraint firstItem="tLq-Ar-ouA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="jEQ-86-Xpc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="collectionView" destination="C7R-IG-TJj" id="BQs-4a-LiU"/>
+                <outlet property="collectionViewHeight" destination="fRU-dv-96S" id="MEb-Kp-COB"/>
+                <outlet property="headingLbl" destination="PR9-oe-Wu5" id="4lZ-WZ-JOZ"/>
+                <outlet property="outerView" destination="tLq-Ar-ouA" id="Jge-4A-oOS"/>
+                <outlet property="timingLbl" destination="t92-wO-OHO" id="p9z-lV-8Gy"/>
+                <outlet property="timingView" destination="aJ6-TT-YkJ" id="yvE-sg-T7Q"/>
+            </connections>
+            <point key="canvasLocation" x="346.56488549618319" y="49.647887323943664"/>
+        </tableViewCell>
+    </objects>
+</document>

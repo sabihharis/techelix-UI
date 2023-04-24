@@ -1,0 +1,105 @@
+[
+    {
+        "sportId": "1",
+        "name": "Traditional Karate",
+        "timings": "5:30 PM - 6:30 PM",
+        "team": [
+            {
+                "image": "1",
+                "name": "Jenny Wilson",
+            },
+            {
+                "image": "2",
+                "name": "Marvin McKinney",
+            },
+            {
+                "image": "3",
+                "name": "Brooklyn Simmons",
+            },
+            {
+                "image": "3",
+                "name": "Ralph Edwards",
+            },
+            {
+                "image": "4",
+                "name": "Ralph Edwards",
+            },
+            {
+                "image": "5",
+                "name": "Jenny Wilson",
+            },
+            {
+                "image": "2",
+                "name": "Jenny Wilson",
+            },
+            {
+                "image": "1",
+                "name": "Marvin McKinney",
+            },
+            {
+                "image": "4",
+                "name": "Brooklyn Simmons",
+            },
+            {
+                "image": "3",
+                "name": "Brooklyn Simmons",
+            }
+        ]
+    },
+    {
+        "sportId": "2",
+        "name": "Traditional Karate",
+        "timings": "5:30 PM - 6:30 PM",
+        "team": [
+            {
+                "image": "4",
+                "name": "Brooklyn Simmons",
+            },
+            {
+                "image": "3",
+                "name": "Brooklyn Simmons",
+            },
+            {
+                "image": "2",
+                "name": "Jenny Wilson",
+            },
+            {
+                "image": "1",
+                "name": "Jenny Wilson",
+            }
+        ]
+    },
+    {
+        "sportId": "3",
+        "name": "Traditional Karate",
+        "timings": "5:30 PM - 6:30 PM",
+        "team": [
+            {
+                "image": "1",
+                "name": "Jenny Wilson",
+            },
+            {
+                "image": "3",
+                "name": "Brooklyn Simmons",
+            },
+            {
+                "image": "4",
+                "name": "Brooklyn Simmons",
+            },
+            {
+                "image": "3",
+                "name": "Brooklyn Simmons",
+            },
+            {
+                "image": "2",
+                "name": "Jenny Wilson",
+            },
+            {
+                "image": "1",
+                "name": "Jenny Wilson",
+            }
+        ]
+    }
+    
+]
+ 

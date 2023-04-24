@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE5B2DAD29F54D0A0042FC5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B2DAC29F54D0A0042FC5B /* AppDelegate.swift */; };
+		AE5B2DB429F54D0A0042FC5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5B2DB229F54D0A0042FC5B /* Main.storyboard */; };
+		AE5B2DB629F54D100042FC5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE5B2DB529F54D100042FC5B /* Assets.xcassets */; };
+		AE5B2DB929F54D100042FC5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5B2DB729F54D100042FC5B /* LaunchScreen.storyboard */; };
+		AE5B2DC429F54D110042FC5B /* Techelix_UI_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B2DC329F54D110042FC5B /* Techelix_UI_TaskTests.swift */; };
+		AE5B2DCE29F54D110042FC5B /* Techelix_UI_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B2DCD29F54D110042FC5B /* Techelix_UI_TaskUITests.swift */; };
+		AE5B2DD029F54D110042FC5B /* Techelix_UI_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B2DCF29F54D110042FC5B /* Techelix_UI_TaskUITestsLaunchTests.swift */; };
+		AE5B2DE029F54D810042FC5B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B2DDE29F54D810042FC5B /* HomeViewController.swift */; };
+		AE5B2DE129F54D810042FC5B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE5B2DDF29F54D810042FC5B /* HomeViewController.xib */; };
+		AE5B2DE429F550F90042FC5B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5B2DE329F550F90042FC5B /* Extension.swift */; };
+		AE9092CB29F6A54A0055318C /* HomeSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9092C929F6A54A0055318C /* HomeSectionCell.xib */; };
+		AE9092CC29F6A54A0055318C /* HomeSectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9092CA29F6A54A0055318C /* HomeSectionCell.swift */; };
+		AE9092CE29F6AE190055318C /* jsonData.json in Resources */ = {isa = PBXBuildFile; fileRef = AE9092CD29F6AE190055318C /* jsonData.json */; };
+		AE9092D129F6AFF00055318C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9092D029F6AFF00055318C /* Model.swift */; };
+		AE9092D329F6B0550055318C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9092D229F6B0550055318C /* ViewModel.swift */; };
+		AE9092DE29F6D0050055318C /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE9092D529F6D0030055318C /* Inter-Thin.ttf */; };
+		AE9092DF29F6D0050055318C /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE9092D629F6D0030055318C /* Inter-ExtraLight.ttf */; };
+		AE9092E029F6D0050055318C /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE9092D729F6D0040055318C /* Inter-Light.ttf */; };
+		AE9092E129F6D0050055318C /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE9092D829F6D0040055318C /* Inter-Bold.ttf */; };
+		AE9092E229F6D0050055318C /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE9092D929F6D0040055318C /* Inter-Medium.ttf */; };
+		AE9092E329F6D0050055318C /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE9092DA29F6D0040055318C /* Inter-ExtraBold.ttf */; };
+		AE9092E429F6D0050055318C /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE9092DB29F6D0040055318C /* Inter-Black.ttf */; };
+		AE9092E529F6D0050055318C /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE9092DC29F6D0050055318C /* Inter-Regular.ttf */; };
+		AE9092E629F6D0050055318C /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE9092DD29F6D0050055318C /* Inter-SemiBold.ttf */; };
+		AEA0E1C429F690D9001EB2C1 /* ContentCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA0E1C229F690D9001EB2C1 /* ContentCollectionCell.swift */; };
+		AEA0E1C529F690D9001EB2C1 /* ContentCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA0E1C329F690D9001EB2C1 /* ContentCollectionCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE5B2DC029F54D110042FC5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE5B2DA129F54D090042FC5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE5B2DA829F54D0A0042FC5B;
+			remoteInfo = "Techelix UI Task";
+		};
+		AE5B2DCA29F54D110042FC5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE5B2DA129F54D090042FC5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE5B2DA829F54D0A0042FC5B;
+			remoteInfo = "Techelix UI Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE5B2DA929F54D0A0042FC5B /* Techelix UI Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Techelix UI Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5B2DAC29F54D0A0042FC5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE5B2DB329F54D0A0042FC5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE5B2DB529F54D100042FC5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE5B2DB829F54D100042FC5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE5B2DBA29F54D100042FC5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5B2DBF29F54D110042FC5B /* Techelix UI TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Techelix UI TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5B2DC329F54D110042FC5B /* Techelix_UI_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Techelix_UI_TaskTests.swift; sourceTree = "<group>"; };
+		AE5B2DC929F54D110042FC5B /* Techelix UI TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Techelix UI TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE5B2DCD29F54D110042FC5B /* Techelix_UI_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Techelix_UI_TaskUITests.swift; sourceTree = "<group>"; };
+		AE5B2DCF29F54D110042FC5B /* Techelix_UI_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Techelix_UI_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AE5B2DDE29F54D810042FC5B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AE5B2DDF29F54D810042FC5B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		AE5B2DE329F550F90042FC5B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		AE9092C929F6A54A0055318C /* HomeSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeSectionCell.xib; sourceTree = "<group>"; };
+		AE9092CA29F6A54A0055318C /* HomeSectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSectionCell.swift; sourceTree = "<group>"; };
+		AE9092CD29F6AE190055318C /* jsonData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jsonData.json; sourceTree = "<group>"; };
+		AE9092D029F6AFF00055318C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AE9092D229F6B0550055318C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AE9092D529F6D0030055318C /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		AE9092D629F6D0030055318C /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		AE9092D729F6D0040055318C /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		AE9092D829F6D0040055318C /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		AE9092D929F6D0040055318C /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		AE9092DA29F6D0040055318C /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		AE9092DB29F6D0040055318C /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		AE9092DC29F6D0050055318C /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		AE9092DD29F6D0050055318C /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		AEA0E1C229F690D9001EB2C1 /* ContentCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionCell.swift; sourceTree = "<group>"; };
+		AEA0E1C329F690D9001EB2C1 /* ContentCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentCollectionCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE5B2DA629F54D0A0042FC5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5B2DBC29F54D110042FC5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5B2DC629F54D110042FC5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE5B2DA029F54D090042FC5B = {
+			isa = PBXGroup;
+			children = (
+				AE5B2DAB29F54D0A0042FC5B /* Techelix UI Task */,
+				AE5B2DC229F54D110042FC5B /* Techelix UI TaskTests */,
+				AE5B2DCC29F54D110042FC5B /* Techelix UI TaskUITests */,
+				AE5B2DAA29F54D0A0042FC5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE5B2DAA29F54D0A0042FC5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE5B2DA929F54D0A0042FC5B /* Techelix UI Task.app */,
+				AE5B2DBF29F54D110042FC5B /* Techelix UI TaskTests.xctest */,
+				AE5B2DC929F54D110042FC5B /* Techelix UI TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE5B2DAB29F54D0A0042FC5B /* Techelix UI Task */ = {
+			isa = PBXGroup;
+			children = (
+				AE9092CF29F6AFE50055318C /* Model */,
+				AE5B2DE229F550DB0042FC5B /* Resources */,
+				AE5B2DDD29F54D610042FC5B /* View Model */,
+				AE5B2DDC29F54D590042FC5B /* View */,
+				AE5B2DAC29F54D0A0042FC5B /* AppDelegate.swift */,
+				AE5B2DB229F54D0A0042FC5B /* Main.storyboard */,
+				AE5B2DB529F54D100042FC5B /* Assets.xcassets */,
+				AE5B2DB729F54D100042FC5B /* LaunchScreen.storyboard */,
+				AE5B2DBA29F54D100042FC5B /* Info.plist */,
+			);
+			path = "Techelix UI Task";
+			sourceTree = "<group>";
+		};
+		AE5B2DC229F54D110042FC5B /* Techelix UI TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE5B2DC329F54D110042FC5B /* Techelix_UI_TaskTests.swift */,
+			);
+			path = "Techelix UI TaskTests";
+			sourceTree = "<group>";
+		};
+		AE5B2DCC29F54D110042FC5B /* Techelix UI TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE5B2DCD29F54D110042FC5B /* Techelix_UI_TaskUITests.swift */,
+				AE5B2DCF29F54D110042FC5B /* Techelix_UI_TaskUITestsLaunchTests.swift */,
+			);
+			path = "Techelix UI TaskUITests";
+			sourceTree = "<group>";
+		};
+		AE5B2DDC29F54D590042FC5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE5B2DEA29F568DE0042FC5B /* Cell */,
+				AE5B2DDE29F54D810042FC5B /* HomeViewController.swift */,
+				AE5B2DDF29F54D810042FC5B /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE5B2DDD29F54D610042FC5B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE9092D229F6B0550055318C /* ViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		AE5B2DE229F550DB0042FC5B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE9092D429F6CFEC0055318C /* Font */,
+				AE5B2DE329F550F90042FC5B /* Extension.swift */,
+				AE9092CD29F6AE190055318C /* jsonData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE5B2DEA29F568DE0042FC5B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AE9092CA29F6A54A0055318C /* HomeSectionCell.swift */,
+				AE9092C929F6A54A0055318C /* HomeSectionCell.xib */,
+				AEA0E1C229F690D9001EB2C1 /* ContentCollectionCell.swift */,
+				AEA0E1C329F690D9001EB2C1 /* ContentCollectionCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AE9092CF29F6AFE50055318C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE9092D029F6AFF00055318C /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE9092D429F6CFEC0055318C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				AE9092DB29F6D0040055318C /* Inter-Black.ttf */,
+				AE9092D829F6D0040055318C /* Inter-Bold.ttf */,
+				AE9092DA29F6D0040055318C /* Inter-ExtraBold.ttf */,
+				AE9092D629F6D0030055318C /* Inter-ExtraLight.ttf */,
+				AE9092D729F6D0040055318C /* Inter-Light.ttf */,
+				AE9092D929F6D0040055318C /* Inter-Medium.ttf */,
+				AE9092DC29F6D0050055318C /* Inter-Regular.ttf */,
+				AE9092DD29F6D0050055318C /* Inter-SemiBold.ttf */,
+				AE9092D529F6D0030055318C /* Inter-Thin.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE5B2DA829F54D0A0042FC5B /* Techelix UI Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5B2DD329F54D110042FC5B /* Build configuration list for PBXNativeTarget "Techelix UI Task" */;
+			buildPhases = (
+				AE5B2DA529F54D0A0042FC5B /* Sources */,
+				AE5B2DA629F54D0A0042FC5B /* Frameworks */,
+				AE5B2DA729F54D0A0042FC5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Techelix UI Task";
+			productName = "Techelix UI Task";
+			productReference = AE5B2DA929F54D0A0042FC5B /* Techelix UI Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE5B2DBE29F54D110042FC5B /* Techelix UI TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5B2DD629F54D110042FC5B /* Build configuration list for PBXNativeTarget "Techelix UI TaskTests" */;
+			buildPhases = (
+				AE5B2DBB29F54D110042FC5B /* Sources */,
+				AE5B2DBC29F54D110042FC5B /* Frameworks */,
+				AE5B2DBD29F54D110042FC5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE5B2DC129F54D110042FC5B /* PBXTargetDependency */,
+			);
+			name = "Techelix UI TaskTests";
+			productName = "Techelix UI TaskTests";
+			productReference = AE5B2DBF29F54D110042FC5B /* Techelix UI TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE5B2DC829F54D110042FC5B /* Techelix UI TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE5B2DD929F54D110042FC5B /* Build configuration list for PBXNativeTarget "Techelix UI TaskUITests" */;
+			buildPhases = (
+				AE5B2DC529F54D110042FC5B /* Sources */,
+				AE5B2DC629F54D110042FC5B /* Frameworks */,
+				AE5B2DC729F54D110042FC5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE5B2DCB29F54D110042FC5B /* PBXTargetDependency */,
+			);
+			name = "Techelix UI TaskUITests";
+			productName = "Techelix UI TaskUITests";
+			productReference = AE5B2DC929F54D110042FC5B /* Techelix UI TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE5B2DA129F54D090042FC5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					AE5B2DA829F54D0A0042FC5B = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					AE5B2DBE29F54D110042FC5B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AE5B2DA829F54D0A0042FC5B;
+					};
+					AE5B2DC829F54D110042FC5B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = AE5B2DA829F54D0A0042FC5B;
+					};
+				};
+			};
+			buildConfigurationList = AE5B2DA429F54D090042FC5B /* Build configuration list for PBXProject "Techelix UI Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE5B2DA029F54D090042FC5B;
+			productRefGroup = AE5B2DAA29F54D0A0042FC5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE5B2DA829F54D0A0042FC5B /* Techelix UI Task */,
+				AE5B2DBE29F54D110042FC5B /* Techelix UI TaskTests */,
+				AE5B2DC829F54D110042FC5B /* Techelix UI TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE5B2DA729F54D0A0042FC5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9092E029F6D0050055318C /* Inter-Light.ttf in Resources */,
+				AE9092E529F6D0050055318C /* Inter-Regular.ttf in Resources */,
+				AE9092E329F6D0050055318C /* Inter-ExtraBold.ttf in Resources */,
+				AE5B2DB929F54D100042FC5B /* LaunchScreen.storyboard in Resources */,
+				AE9092E129F6D0050055318C /* Inter-Bold.ttf in Resources */,
+				AEA0E1C529F690D9001EB2C1 /* ContentCollectionCell.xib in Resources */,
+				AE9092CE29F6AE190055318C /* jsonData.json in Resources */,
+				AE9092CB29F6A54A0055318C /* HomeSectionCell.xib in Resources */,
+				AE9092DE29F6D0050055318C /* Inter-Thin.ttf in Resources */,
+				AE5B2DB629F54D100042FC5B /* Assets.xcassets in Resources */,
+				AE9092E229F6D0050055318C /* Inter-Medium.ttf in Resources */,
+				AE5B2DB429F54D0A0042FC5B /* Main.storyboard in Resources */,
+				AE9092E629F6D0050055318C /* Inter-SemiBold.ttf in Resources */,
+				AE9092DF29F6D0050055318C /* Inter-ExtraLight.ttf in Resources */,
+				AE5B2DE129F54D810042FC5B /* HomeViewController.xib in Resources */,
+				AE9092E429F6D0050055318C /* Inter-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5B2DBD29F54D110042FC5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5B2DC729F54D110042FC5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE5B2DA529F54D0A0042FC5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5B2DAD29F54D0A0042FC5B /* AppDelegate.swift in Sources */,
+				AE5B2DE029F54D810042FC5B /* HomeViewController.swift in Sources */,
+				AE9092CC29F6A54A0055318C /* HomeSectionCell.swift in Sources */,
+				AE9092D129F6AFF00055318C /* Model.swift in Sources */,
+				AE5B2DE429F550F90042FC5B /* Extension.swift in Sources */,
+				AEA0E1C429F690D9001EB2C1 /* ContentCollectionCell.swift in Sources */,
+				AE9092D329F6B0550055318C /* ViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5B2DBB29F54D110042FC5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5B2DC429F54D110042FC5B /* Techelix_UI_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5B2DC529F54D110042FC5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE5B2DCE29F54D110042FC5B /* Techelix_UI_TaskUITests.swift in Sources */,
+				AE5B2DD029F54D110042FC5B /* Techelix_UI_TaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE5B2DC129F54D110042FC5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE5B2DA829F54D0A0042FC5B /* Techelix UI Task */;
+			targetProxy = AE5B2DC029F54D110042FC5B /* PBXContainerItemProxy */;
+		};
+		AE5B2DCB29F54D110042FC5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE5B2DA829F54D0A0042FC5B /* Techelix UI Task */;
+			targetProxy = AE5B2DCA29F54D110042FC5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE5B2DB229F54D0A0042FC5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE5B2DB329F54D0A0042FC5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE5B2DB729F54D100042FC5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE5B2DB829F54D100042FC5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE5B2DD129F54D110042FC5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE5B2DD229F54D110042FC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE5B2DD429F54D110042FC5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM7RWW58PD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Techelix UI Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = HomeViewController.xib;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Techelix-UI-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE5B2DD529F54D110042FC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM7RWW58PD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Techelix UI Task/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = HomeViewController.xib;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Techelix-UI-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE5B2DD729F54D110042FC5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM7RWW58PD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Techelix-UI-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Techelix UI Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Techelix UI Task";
+			};
+			name = Debug;
+		};
+		AE5B2DD829F54D110042FC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM7RWW58PD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Techelix-UI-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Techelix UI Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Techelix UI Task";
+			};
+			name = Release;
+		};
+		AE5B2DDA29F54D110042FC5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM7RWW58PD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Techelix-UI-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Techelix UI Task";
+			};
+			name = Debug;
+		};
+		AE5B2DDB29F54D110042FC5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DM7RWW58PD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Techelix-UI-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Techelix UI Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE5B2DA429F54D090042FC5B /* Build configuration list for PBXProject "Techelix UI Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5B2DD129F54D110042FC5B /* Debug */,
+				AE5B2DD229F54D110042FC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5B2DD329F54D110042FC5B /* Build configuration list for PBXNativeTarget "Techelix UI Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5B2DD429F54D110042FC5B /* Debug */,
+				AE5B2DD529F54D110042FC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5B2DD629F54D110042FC5B /* Build configuration list for PBXNativeTarget "Techelix UI TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5B2DD729F54D110042FC5B /* Debug */,
+				AE5B2DD829F54D110042FC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE5B2DD929F54D110042FC5B /* Build configuration list for PBXNativeTarget "Techelix UI TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE5B2DDA29F54D110042FC5B /* Debug */,
+				AE5B2DDB29F54D110042FC5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE5B2DA129F54D090042FC5B /* Project object */;
+}
